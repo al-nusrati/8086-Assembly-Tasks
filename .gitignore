@@ -1,0 +1,22 @@
+# ===== Compiled binaries =====
+*.exe
+*.out
+*.bin
+
+# ===== Assembler / linker outputs =====
+*.obj
+*.o
+*.lst
+*.map
+
+# ===== Backup / temp files =====
+*~
+*.tmp
+*.log
+
+# ===== Windows clutter =====
+Thumbs.db
+Desktop.ini
+
+# ===== VS Code (optional) =====
+.vscode/
