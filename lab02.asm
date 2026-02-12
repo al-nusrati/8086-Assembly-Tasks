@@ -4,7 +4,7 @@
 
 .data          
 
-    msg db 'Enter letter: $'
+    msg db 'Enter first name: $'
                   
  
 .code
