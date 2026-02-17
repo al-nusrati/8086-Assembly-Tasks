@@ -78,7 +78,7 @@
 ;----------------------------------------------------------------------------
 
 
-    ; Input: CX (Number) | Output: AX (Factorial)
+    ; Input: CX | Output: AX
     CalcFactorial proc
         mov ax, 1           ; start result at 1
     fact_loop:

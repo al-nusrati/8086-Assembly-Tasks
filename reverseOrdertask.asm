@@ -22,7 +22,7 @@
         mov ah, 01h         ; reading char 
         int 21h
         
-        cmp al, 0Dh         ; check if Enter key (0Dh) is pressed
+        cmp al, 0Dh         ; check if Enter key 010h is pressed
         je start_output     ; if Enter, go to output section
         
         push ax             ; push the digit inside AX to stack
@@ -47,7 +47,7 @@
         
         ; --- Pop and Print Loop ---
     pop_loop:
-        pop dx              ; pop top of stack into DX (char moves to DL)
+        pop dx              ; pop top of stack into DX 
         
         mov ah, 02h         ; print char function
         int 21h             ; DL contains the char to print
